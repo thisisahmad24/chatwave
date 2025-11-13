@@ -1,0 +1,8 @@
+# Ignore messages file (user-specific)
+messages.txt
+
+# PHP logs
+*.log
+
+# VS Code
+.vscode/
