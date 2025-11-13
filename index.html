@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChatWave</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h2>ChatWave</h2>
+      <button id="clear-chat" title="Clear chat">Clear</button>
+    </header>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="typing-indicator" id="typing">Bot is typing...</div>
+
+    <form id="chat-form" class="input-area">
+      <input type="text" id="username" placeholder="Your name..." required />
+      <input type="text" id="message" placeholder="Type a message..." required autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
